@@ -3,8 +3,8 @@ let a: { b: number } = {
 };
 
 let c: {
-  firstName: string;
-  lastName: string;
+  firstName: string,
+  lastName: string,
 } = {
   firstName: 'john',
   lastName: 'barrowman',
