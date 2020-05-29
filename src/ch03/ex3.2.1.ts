@@ -1,5 +1,5 @@
-let a: any = 666;
-let b: any = ['danger'];
-let c = a + b;
+let a: any = 666; // any
+let b: any = ['danger']; // any
+let c = a + b; // any
 
 export {}

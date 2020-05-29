@@ -9,7 +9,7 @@ a = { b: 1, c: undefined };
 a = { b: 1, c: 'd' };
 a = { b: 1, 10: true };
 a = { b: 1, 10: true, 20: false };
-a = { 10: true };
-a = { b: 1, 33: 'red' };
+a = { 10: true };        // Error
+a = { b: 1, 33: 'red' }; // Error
 
 export {};

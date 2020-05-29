@@ -1,8 +1,8 @@
-let a = true;
-let b = false ;
-const c = true;
-let d: boolean = true;
-let e: true = true;
-let f: true = false;
+let a = true; // boolan
+let b = false ; // boolan
+const c = true; // true
+let d: boolean = true; // boolean
+let e: true = true; // true
+let f: true = false; // Error
 
 export {};

@@ -1,9 +1,9 @@
 let a: { b: number };
-a = {};
+a = {}; // Error
 
 a = {
   b: 1,
-  c: 2,
+  c: 2, // Error
 };
 
 export {};

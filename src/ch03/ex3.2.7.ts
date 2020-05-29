@@ -1,13 +1,13 @@
-let a = Symbol('a');
-let b: symbol = Symbol('b');
-var c = a === b;
-let d = a + 'x';
+let a = Symbol('a');         // symbol
+let b: symbol = Symbol('b'); // symbol
+var c = a === b;             // boolean
+let d = a + 'x';             // Error
 
-const e = Symbol('e');
-const f: unique symbol = Symbol('f');
-let g: unique symbol = Symbol('g');
+const e = Symbol('e');                // typeof e
+const f: unique symbol = Symbol('f'); // typeof f
+let g: unique symbol = Symbol('g');   // Error
 
-let h = e === e;
-let i = e === f;
+let h = e === e; // boolean
+let i = e === f; // Error
 
 export {};

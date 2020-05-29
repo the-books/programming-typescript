@@ -4,7 +4,7 @@ let user: {
   firstName: 'abby',
 };
 
-console.log(user.firstName);
-user.firstName = 'abbey with an e';
+user.firstName;                     // string
+user.firstName = 'abbey with an e'; // Error
 
 export {};

@@ -1,13 +1,10 @@
 let a = {
   b: 'x',
-};
+}; // { b: string }
 let b = {
   c: {
     d: 'f',
   },
-};
-
-console.log(a.b);
-console.log(b.c.d);
+}; // { c: { d: string } }
 
 export {};
