@@ -18,4 +18,14 @@ const found: issue[] = [
     before: '에러 TSTS2322',
     after: '에러 TS2322',
   },
+  {
+    page: 62,
+    before: 'return ${ this.getDate() }/${ this.getMonth() }/${ this.getFullYear() }',
+    after: 'return `${ this.getDate() }/${ this.getMonth() }/${ this.getFullYear() }`',
+  },
+  {
+    page: 63,
+    before: 'return ${ this.getDate() }/${ this.getMonth() }/${ this.getFullYear() }',
+    after: 'return `${ this.getDate() }/${ this.getMonth() }/${ this.getFullYear() }`',
+  },
 ];
