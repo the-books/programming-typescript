@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "start": "node ./dist/test2.js"
+    "start": "node ./dist/ex4.2.2.1.js"
   },
   "repository": {
     "type": "git",
