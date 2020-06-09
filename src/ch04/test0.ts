@@ -9,7 +9,7 @@ type Person = {
   name: string;
 };
 
-type Member = {
+type Member = Person & {
   id: string;
 };
 
