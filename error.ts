@@ -28,4 +28,14 @@ const found: issue[] = [
     before: 'return ${ this.getDate() }/${ this.getMonth() }/${ this.getFullYear() }',
     after: 'return `${ this.getDate() }/${ this.getMonth() }/${ this.getFullYear() }`',
   },
+  {
+    page: 89,
+    before: 'let myEvent: Event<HTMLButtonElement | null> = {',
+    after: 'let myEvent: MyEvent<HTMLButtonElement | null> = {',
+  },
+  {
+    page: 97,
+    before: 'type: string',
+    after: '?',
+  },
 ];

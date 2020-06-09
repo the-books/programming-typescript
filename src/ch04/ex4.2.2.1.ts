@@ -2,7 +2,6 @@
 //   return [];
 // }
 
-
 type Map = {
   // tslint:disable-next-line: callable-types
   <T, U>(array: T[], f: (item: T) => U): U[];

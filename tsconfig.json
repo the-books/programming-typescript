@@ -8,6 +8,6 @@
     "target": "ES2015"
   },
   "include": [
-    "src/ch04/ex4.2.2.1.ts"
+    "src"
   ]
 }
