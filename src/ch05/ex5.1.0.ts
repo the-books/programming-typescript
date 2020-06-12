@@ -2,12 +2,6 @@ type Color = 'Black' | 'White';
 type File = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H';
 type Rank = 1 | 2 | 3 | 4 | 4 | 5 | 6 | 7;
 
-type Distance = {
-  rank: number;
-  file: number;
-};
-
-class Game {}
 
 // tslint:disable-next-line: max-classes-per-file
 class Position {
@@ -17,7 +11,7 @@ class Position {
     private file: File,
   ) {}
 
-  distanceFrom(position: Position): Distance {
+  distanceFrom(position: Position) {
     return {
       rank: Math.abs(position.rank - this.rank),
       file: Math.abs(position.file.charCodeAt(0) - this.file.charCodeAt(0)),
@@ -54,9 +48,28 @@ class King extends Piece {
 }
 
 // tslint:disable-next-line: max-classes-per-file
-class Queen extends Piece {
-  canMoveTo() {
+class Queen extends Piece {}
 
+// tslint:disable-next-line: max-classes-per-file
+class Bishop extends Piece {}
+
+// tslint:disable-next-line: max-classes-per-file
+class Knight extends Piece {}
+
+// tslint:disable-next-line: max-classes-per-file
+class Rook extends Piece {}
+
+// tslint:disable-next-line: max-classes-per-file
+class Pawn extends Piece {}
+
+// tslint:disable-next-line: max-classes-per-file
+class Game {
+  private pieces = Game.makePieces();
+  private static makePieces() {
+    return [
+      // Kings
+      new King('White', 'E', 1),
+    ]
   }
 }
 
