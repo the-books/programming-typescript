@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "start": "node ./dist/ch05/ex5.1.0.js"
+    "start": "node ./dist/test2.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/the-books/programming-typescript#readme",
   "devDependencies": {
+    "@types/underscore": "^1.10.0",
     "tslint": "^6.1.2",
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "underscore": "^1.10.2"
   }
 }

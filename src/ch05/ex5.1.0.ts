@@ -26,8 +26,8 @@ abstract class Piece {
 
   constructor(
     private readonly color: Color,
-    rank: Rank,
     file: File,
+    rank: Rank,
   ) {
     this.position = new Position(rank, file);
   }

@@ -1,6 +1,6 @@
 type Color = 'Black' | 'Red';
 type Suit = 'Spade' | 'Heart' | 'Diamond' | 'Club';
-type Size =  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13;
+type Size = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13;
 type Character = 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '10' | 'J' | 'Q' | 'K';
 
 class Card {
