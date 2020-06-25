@@ -8,6 +8,6 @@
     "target": "ES2015"
   },
   "include": [
-    "src/ch05/test2.ts"
+    "src/ch07/*.ts"
   ]
 }
